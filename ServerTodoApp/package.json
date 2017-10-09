@@ -1,0 +1,30 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "a simple todo application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.7.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2",
+    "body-parser": "~1.5.2",
+    "method-override": "~2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueXimello/TodoApp.git"
+  },
+  "author": "Josue Ximello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosueXimello/TodoApp/issues"
+  },
+  "homepage": "https://github.com/JosueXimello/TodoApp#readme"
+}
